@@ -1,0 +1,93 @@
+.balance__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 16px;
+  padding-bottom: 66px;
+  background-image: url("../../../public/img/balance-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -40 px;
+}
+
+.balance__top {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+  align-items: center;
+}
+
+.balance__title {
+  color: #f3f5ff;
+}
+
+.balance__settings {
+  width: 24px;
+  height: 24px;
+  background-image: url("../../../public/img/balance-settings.svg");
+}
+
+.balance__notifications {
+  width: 24px;
+  height: 24px;
+  background-image: url("../../../public/img/balance-notifications.svg");
+}
+
+.balance__amount {
+  color: #fff;
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.balance__amount span {
+  font-weight: 400;
+}
+
+.balance__action-list {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  align-self: center;
+  position: relative;
+  top: -36px;
+}
+
+.balance__action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  text-decoration: none;
+}
+
+.balance__action-name {
+  color: #1d1d1f;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.balance__action-img {
+  height: 72px;
+  width: 72px;
+  border-radius: 100px;
+  background-color: #5b94e9;
+  border: 10px solid var(--BG-1, #fff);
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: background-color 0.5s;
+}
+
+.balance__receive-img {
+  background-image: url("../../../public/img/balance-receive.svg");
+}
+
+.balance__send-img {
+  background-image: url("../../../public/img/balance-send.svg");
+}
+
+.balance__action:hover .balance__action-img {
+  background-color: #8db5f0;
+}

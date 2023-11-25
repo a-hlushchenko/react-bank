@@ -1,0 +1,29 @@
+.button {
+  padding: 20px;
+  background-color: #775ce5;
+  border: 1px solid #775ce5;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button--transparent {
+  color: #775ce5;
+  background-color: transparent;
+}
+
+.button--mini {
+  padding: 16px;
+}
+
+.button--red {
+  color: #f23152;
+  border-color: #f23152;
+}
+
+.button--disabled {
+  opacity: 0.7 !important;
+}

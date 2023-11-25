@@ -1,0 +1,5 @@
+.back-button {
+  width: 24px;
+  height: 24px;
+  background-image: url("../../../public/img/back-button.svg");
+}

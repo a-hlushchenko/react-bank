@@ -1,0 +1,14 @@
+.transaction-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.balance__amount.Receive {
+  color: #24b277;
+}
+
+.balance__amount.Send {
+  color: #1d1d1f;
+}

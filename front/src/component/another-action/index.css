@@ -1,0 +1,12 @@
+.another-action {
+  align-self: self-start;
+  display: flex;
+  gap: 4px;
+  color: #1d1d1f;
+  font-size: 14px;
+}
+
+.another-action__button {
+  color: #775ce5;
+  text-decoration: solid 1px underline;
+}

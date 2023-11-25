@@ -1,0 +1,28 @@
+.alert {
+  padding: 16px;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s, backgroud-color 0.3s;
+}
+
+.alert--progress {
+  background: #5d93ff;
+  color: #07193f;
+}
+
+.alert--success {
+  background: #55d69a;
+  color: #17724f;
+}
+
+.alert--error {
+  background-color: rgba(242, 136, 61, 0.1);
+  color: #f2883d;
+}
+
+.alert--disabled {
+  display: none;
+}

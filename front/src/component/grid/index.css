@@ -1,0 +1,15 @@
+.grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.grid--big {
+  gap: 20px;
+}
+
+.grid--middle {
+  gap: 16px;
+}

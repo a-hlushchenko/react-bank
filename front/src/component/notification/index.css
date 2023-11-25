@@ -1,0 +1,39 @@
+.notification__content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.notification__title {
+  color: #1d1d1f;
+  font-weight: 500;
+}
+
+.notification__info {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #939199;
+  font-size: 12px;
+}
+
+.notification {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.notification__icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #f7f7f7;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  background-image: url("../../../public/img/notification.svg");
+}
+
+.notification__icon.Warning {
+  background-image: url("../../../public/img/warning.svg");
+}

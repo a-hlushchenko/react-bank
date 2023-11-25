@@ -1,0 +1,43 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+.field__label {
+  color: #1d1d1f;
+  font-size: 14px;
+}
+
+.field__input {
+  padding: 20px 16px;
+  border-radius: 12px;
+  border: 1px solid #e9e8eb;
+  color: #1d1d1f;
+  font-size: 14px;
+  transition: border-color 0.5s, color 0.5s;
+  width: 100%;
+  background-color: #fff;
+}
+
+.field__input:focus {
+  border-color: #775ce5 !important;
+  color: #1d1d1f !important;
+}
+
+.field__error {
+  display: none;
+  color: #f23152;
+  font-size: 14px;
+}
+
+.validation--active .field__error {
+  display: block;
+}
+
+.validation--active .field__input {
+  border-color: #f23152;
+  color: #f23152;
+}

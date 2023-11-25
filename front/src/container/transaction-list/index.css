@@ -1,0 +1,77 @@
+.transaction-list {
+  display: flex;
+  flex-direction: column;
+  padding: 36px 20px;
+  gap: 16px;
+}
+
+.transaction__list--empty {
+  text-align: center;
+  opacity: 0.7;
+}
+
+.transaction {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.transaction__icon {
+  width: 48px;
+  min-width: 48px;
+  height: 48px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 50px;
+  background-color: #f7f7f7;
+  background-image: url("../../../public/img/user-icon.svg");
+}
+
+.transaction__icon.Coinbase {
+  background-image: url("../../../public/img/coibase-icon.svg");
+}
+
+.transaction__icon.Stripe {
+  background-image: url("../../../public/img/stripe-icon.svg");
+}
+
+.transaction__content {
+  color: #1d1d1f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+}
+
+.transaction__amount {
+  font-weight: 500;
+}
+
+.transaction__amount.Receipt {
+  color: #24b277;
+}
+
+.transaction__amount span {
+  font-weight: 400;
+}
+
+.transaction__info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 8px;
+}
+
+.transaction__name {
+  color: #1d1d1f;
+  font-weight: 500;
+}
+
+.transaction__info-bottom {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #939199;
+  font-size: 12px;
+}
