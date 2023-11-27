@@ -1,8 +1,5 @@
 {
   "dependencies": {
     "nodemailer": "^6.9.7"
-  },
-  "scripts": {
-    "start": "node ./back/index.js"
   }
 }
