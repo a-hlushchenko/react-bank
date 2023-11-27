@@ -3,6 +3,6 @@
     "nodemailer": "^6.9.7"
   },
   "scripts": {
-    "start": "node back/src/route/index.js"
+    "start": "node ./index.js"
   }
 }
